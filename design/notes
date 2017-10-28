@@ -1,0 +1,43 @@
+o r pan         pb9
+o r tilt        pb8
+o r jaw         pb7
+o r eye r       pb6
+o r eye m       pb5
+o r eye l       pb4
+i r pan tilt    adc0
+i r joy tilt    adc1
+i r action 1    pb3
+i r action 2    pb12
+
+o l pan         pa15
+o l tilt        pa12
+o l jaw         pa11
+0 l eye r       pa8
+0 l eye m       pb15
+0 l eye l       pb14 
+i l pan tilt    adc2
+i l joy tilt    adc3
+i l action 1    pb10
+i l action 2    pb11
+
+led strip       pb13
+
+stm32 led       pc13
+
+serial1 tx      pa9
+serial1 rx      pa10
+
+open
+pa5
+pa6
+pa7
+pb0
+pb1
+
+
+arduino radar
+    https://www.youtube.com/watch?v=kQRYIH2HwfY
+    http://howtomechatronics.com/projects/arduino-radar-project/
+
+ultrasonic
+    https://grabcad.com/library/hc-sr04-housing-1
